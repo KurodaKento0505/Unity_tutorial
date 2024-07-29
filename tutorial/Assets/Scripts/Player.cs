@@ -26,4 +26,12 @@ public class Player : MonoBehaviour
             Debug.Log("スペースキーが押された!");
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Item"))
+        {
+            Destroy(other.gameObject);
+        }
+    }
 }
