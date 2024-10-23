@@ -13,7 +13,7 @@
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
 
-Assets/
+# Assets/
 ProjectSettings/
 Logs/
 
